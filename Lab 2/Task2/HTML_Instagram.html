@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="CSS_Instagram.css" />
+</head>
+<body>
+
+  <main class="page-container">
+
+    <section class="phone-mockup">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Instagram_app_on_smartphone_%28grass_background%29_%28cropped%29.jpg"
+        alt="Instagram app preview"
+      />
+    </section>
+
+    <section class="login-wrapper">
+
+      <article class="login-card">
+        <header class="login-header">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            alt="Instagram logo"
+            class="logo"
+          />
+        </header>
+
+        <form class="login-form">
+          <div class="form-group">
+            <label for="username">Phone number, username, or email</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </div>
+
+          <button type="submit" class="login-button">
+            Log In
+          </button>
+
+          <div class="separator">
+            <span></span>
+            <p>OR</p>
+            <span></span>
+          </div>
+
+          <button type="button" class="facebook-login">
+            Log in with Facebook
+          </button>
+
+          <a href="#" class="forgot-password">
+            Forgot password?
+          </a>
+        </form>
+      </article>
+
+      <article class="signup-card">
+        <p>
+          Don’t have an account?
+          <a href="#">Sign up</a>
+        </p>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
