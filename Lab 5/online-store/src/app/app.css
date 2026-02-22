@@ -1,0 +1,22 @@
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  background: white;
+  transition: 0.3s;
+}
+
+.sidebar button.selected {
+  background-color: #1976d2;
+  color: white;
+  border-color: #115293;
+  font-weight: bold;
+}
+
+.no-products {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+}
