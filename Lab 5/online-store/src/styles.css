@@ -1,0 +1,5 @@
+.category-nav { display: flex; gap: 10px; padding: 20px; justify-content: center; }
+.category-nav button { padding: 10px 20px; border-radius: 20px; border: 1px solid #ccc; cursor: pointer; }
+.category-nav button.active { background: #1976d2; color: white; }
+.btn-delete { background: #f44336 !important; }
+.btn-like { background: #e91e63 !important; }
